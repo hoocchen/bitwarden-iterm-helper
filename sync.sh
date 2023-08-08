@@ -1,7 +1,7 @@
 #!/bin/sh
 
-source ~/bitwarden-iterm-helper/unlock.sh
+source ~/github/bitwarden-iterm-helper/unlock.sh
 
 bw sync
 
-source ~/bitwarden-iterm-helper/lock.sh
+source ~/github/bitwarden-iterm-helper/lock.sh

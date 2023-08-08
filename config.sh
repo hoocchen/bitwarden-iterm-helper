@@ -1,4 +1,4 @@
-HELPER_PATH=~/bitwarden-iterm-helper
+HELPER_PATH=~/github/bitwarden-iterm-helper
 SESSION_PATH=$HELPER_PATH/.bw_session
 PATH=/usr/local/bin:$PATH
 

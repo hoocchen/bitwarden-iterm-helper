@@ -5,7 +5,7 @@ if [ "$#" -lt 1 ]; then
 	exit 1
 fi
 
-source ~/bitwarden-iterm-helper/unlock.sh
+source ~/github/bitwarden-iterm-helper/unlock.sh
 
 BW_ITEM_NAME=$1
 SSH_OPTION="${@:2}"

@@ -65,7 +65,7 @@ for iterm2 on MacOS
     1. Open preferences and go profiles tab
     1. Make new profile for helper
     1. Set auto ssh connect
-        * ~/bitwarden-iterm-helper/ssh_connect.sh "<ssh_info_bitwarden_item_name>"
+        * ~/github/bitwarden-iterm-helper/ssh_connect.sh "<ssh_info_bitwarden_item_name>"
         * ![iTerm-profile-image-example](https://raw.githubusercontent.com/creatorKoo/bitwarden-iterm-helper/main/img/iTerm-profile-image-example.png)
     1. profile -> Advanced -> Triggers -> Edit
         * ![iTerm-profile-advanced-tab-example](https://raw.githubusercontent.com/creatorKoo/bitwarden-iterm-helper/main/img/iTerm-profile-advanced-tab-example.png)
@@ -78,12 +78,12 @@ for iterm2 on MacOS
         * add
             * Password:
             * Run Coprocessor
-            * ~/bitwarden-iterm-helper/get_pw.sh "<ssh_info_bitwarden_item_name>"
+            * ~/github/bitwarden-iterm-helper/get_pw.sh "<ssh_info_bitwarden_item_name>"
             * check
         * add optional
             * <your_otp_request_message>:
             * Run Coprocessor
-            * ~/bitwarden-iterm-helper/get_otp.sh "<ssh_info_bitwarden_item_name>"
+            * ~/github/bitwarden-iterm-helper/get_otp.sh "<ssh_info_bitwarden_item_name>"
             * check
 1. Open profile made before
     * Profiles -> Open Profiles -> select "profile name created in the previous step"

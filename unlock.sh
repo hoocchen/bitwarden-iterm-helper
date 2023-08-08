@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source ~/bitwarden-iterm-helper/config.sh
+source ~/github/bitwarden-iterm-helper/config.sh
 
 BW_STATUS=$(bw status 2>/dev/null | jq -r '.status')
 

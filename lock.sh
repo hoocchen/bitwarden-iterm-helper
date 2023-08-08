@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source ~/bitwarden-iterm-helper/config.sh
+source ~/github/bitwarden-iterm-helper/config.sh
 
 bw lock 2>/dev/null >/dev/null
 
